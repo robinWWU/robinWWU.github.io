@@ -1,99 +1,47 @@
-html, body{
-    margin 0;
-    padding 0;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    scroll-behavior: smooth;
-}
-body {
+html, body{  
     margin: 0;
+    padding: 0;
 }
-section {
-    height: 100%;
+
+img{
+    padding-top: 55px;;
+    padding-left: auto;
+    padding-right: auto;
 }
+
+div{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
 a {
     text-decoration: none;
 }
-li {
-    list-style-type: none;
-}
-h2, h3, a {
+
+a {
     font-family: 'Heebo', sans-serif;
     font-weight: 500;
     color: #494949;  
 }
-h3 {
-    font-size: 32px;
-    padding-top: 8%;
-    margin-bottom: 5px;
-}
+
 p {
+    font-size: 12px;
+    text-align: center;
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
     color: #494949;
 }
-hr {
-    width: 30px;
-    height: 3px;
-    background: #494949;
-    border: 0;
-    margin: 0 auto 40px auto;
-}
-.arrow-down img:hover {
-    opacity: 1;
-    transform: scale(1.1, 1.1);
-}
-.arrow-up img:hover{
-    opacity: 1;
-    transform: scale(1.1, 1.1);
-}
-#logo, header nav ul li{
-    transition: all 250ms;
-    -webkit-transition: all 250ms;
-    -moz-transition: all 250ms;
-    -o-transition: all 250ms;
+
+#eins{
+    padding-top: 55px;
 }
 
-.arrow-down img {
-    z-index: 2;
-    position: absolute;
-    width: 40px;
-    opacity: 0.5;
-    bottom: 20px;
-    
-    transition: all 80ms;
-    -webkit-transition: all 80ms;
-    -moz-transition: all 80ms;
-    -o-transition: all 80ms;
-}
-
-.arrow-up img {
-    z-index: 2;
-    width: 40px;
-    opacity: 0.5;
-    margin-top: 80px;
-    
-    transition: all 80ms;
-    -webkit-transition: all 80ms;
-    -moz-transition: all 80ms;
-    -o-transition: all 80ms;
-}
-
-.infotext {
-    position: relative;
-    text-align: left;
-    margin: 0 65% 0 10%;
-    font-size: 15px;
-    color: black;
-    font-family: 'Mulish', sans-serif;
-}
-
-/* HEADER **************************************/
 
 header{
     width: 100%;
-    height: 65px;
+    height: 55px;;
     position: fixed;
     top: 0;
     left: 0;
@@ -103,131 +51,13 @@ header{
 }
 
 #logo {
-    width: 140px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
     float: left;
-    margin: 25px 0 0 50px;
+    margin: 20px 0 0 5%;
 }
 
 #logo:hover {
     opacity: 0.5;
 }
-
-header nav {
-    float:right;
-    margin: 10px 50px 0 0;
-}
-
-header nav ul li {
-    float: left;
-    margin-right: 25px;
-}
-
-header nav ul li a {
-    font-size: 16px;
-    text-transform: none
-}
-
-header nav ul li:hover {
-    opacity: 0.5;
-}
-
-
-
-/* HOME **************************************/
-
-#paris {
-    position: relative;
-    background: url(img/paris.png);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    align-self: stretch;
-}
-
-#paris h1 {
-    position: relative;
-    text-align: left;
-    margin: 10% 70% 0 10%;
-    font-size: 40px;
-    font-family: 'Mulish', sans-serif;
-}
-
-
-
-/* london **************************************/
-
-#london {
-    position: relative;
-    background: url(img/london.png);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    align-self: stretch;
-}
-
-#london h1 {
-    position: relative;
-    text-align: left;
-    margin: 3% 70% 0 10%;
-    font-size: 40px;
-    font-family: 'Mulish', sans-serif;
-}
-
-
-/* munich **************************************/
-
-#munich {
-    position: relative;
-    background: url(img/munich.png);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    align-self: stretch;
-}
-
-#munich h1 {
-    position: relative;
-    text-align: left;
-    margin: 3% 5% 0 80%;
-    font-size: 40px;
-    font-family: 'Mulish', sans-serif;
-}
-
-#munich p{
-    
-    margin: 0 5% 0 80%;
-}
-
-
-
-/* cologne **************************************/
-
-#cologne {
-    position: relative;
-    background: url(img/cologne.png);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    align-self: stretch;
-}
-
-#cologne h1 {
-    position: relative;
-    text-align: left;
-    margin: 3% 5% 0 80%;
-    font-size: 40px;
-    font-family: 'Mulish', sans-serif;
-}
-
-#cologne p{
-    
-    margin: 0 5% 0 80%;
-}
-
-
-/* Vibes **************************************/
-
-
-
-/* Contact **************************************/
-
